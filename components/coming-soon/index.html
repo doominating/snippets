@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon Page</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo">Brand Name</a>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section>
+    <img src="assets/curve.png" class="wave">
+    <div class="contentBox">
+      <h2>Coming Soon</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tempore est soluta corrupti blanditiis ipsum
+        quo cumque at in inventore vel quia provident, aliquid aliquam obcaecati ducimus labore impedit totam?</p>
+      <div class="countdown">
+        <div class="time">
+          <div id="day"></div><span>Days</span>
+        </div>
+        <div class="time">
+          <div id="hour"></div><span>Minutes</span>
+        </div>
+        <div class="time">
+          <div id="minute"></div><span>Hours</span>
+        </div>
+        <div class="time">
+          <div id="second"></div><span>Seconds</span>
+        </div>
+      </div>
+      <a href="#" onclick="toggle();">Notify Me!</a>
+    </div>
+    <div class="imgBox">
+      <img src="assets/man.png" alt="Men-at-work">
+    </div>
+    <ul class="socials">
+      <li><a href="#"><img src="assets/facebook.png" alt="Facebook"></a></li>
+      <li><a href="#"><img src="assets/twitter.png" alt="Twitter"></a></li>
+      <li><a href="#"><img src="assets/instagram.png" alt="Instagram"></a></li>
+    </ul>
+  </section>
+
+  <div class="newsletter">
+    <h2>Stay Tuned</h2>
+    <p>Get notified at launch</p>
+    <div class="inputBox">
+      <form action="">
+        <input type="email" id="email" name="email" required="true" placeholder="Enter Email Address">
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <img src="assets/close.png" class="close" alt="Close" onclick="toggle();">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
